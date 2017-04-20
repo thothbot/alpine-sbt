@@ -2,7 +2,7 @@ FROM thothbot/alpine-jdk8:latest
 
 MAINTAINER Alex Usachev <thothbot@gmail.com>
 
-ENV SBT_VERSION=0.13.13 \
+ENV SBT_VERSION=0.13.15 \
     PATH=${PATH}:/opt/sbt/bin
 
 # do all in one step
